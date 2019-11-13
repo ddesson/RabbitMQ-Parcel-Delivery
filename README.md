@@ -15,15 +15,16 @@ Since this Application is a Broker, there will be several Parcel Delivery Compan
 There will also have basic Applications to Administer this Application. For example a Parcel Delivery, add or remove Delivery Companies and their supported Deliveries. 
 
 # Design Details
+## Data Structures
 
  Delivery Company Structure for each Source and Destination Cities
-  Company Name
-  Source City
-  Destination City
-  Estimated nymber of days to deliver
-  Cost per Kg of weight
+ - Company Name
+ - Source City
+ - Destination City
+ - Estimated nymber of days to deliver
+ - Cost per Kg of weight
   
-  Delivery Bid - used by a Customer to find the best company to deliver their parcel
-  Companny Name
-  Source City
-  Destination City
+Delivery Bid structure used by a Customer to find the best company to deliver their parcel
+- Companny Name
+- Source City
+- Destination City
